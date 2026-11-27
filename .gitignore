@@ -1,0 +1,17 @@
+# Personal financial data — never commit
+finance_data.json
+*.csv
+*.json.bak
+
+# macOS
+.DS_Store
+__MACOSX/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Streamlit local secrets
+.streamlit/secrets.toml
